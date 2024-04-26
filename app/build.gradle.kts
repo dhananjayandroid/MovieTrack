@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.jetbrainsKotlinAndroid)
     kotlin("kapt")
     id("com.google.dagger.hilt.android")
+    id("com.google.firebase.appdistribution")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -22,9 +24,19 @@ android {
         }
     }
 
+    signingConfigs {
+        create("release") {
+            keyAlias = "djay"
+            keyPassword = "12345678"
+            storeFile = file("djay_key.jks")
+            storePassword = "12345678"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

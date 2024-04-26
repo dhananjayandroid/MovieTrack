@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553107353209",
+    "project_id": "movietrack-a2b5b",
+    "storage_bucket": "movietrack-a2b5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553107353209:android:84a9a9e12b998d4467eea8",
+        "android_client_info": {
+          "package_name": "com.djay.movietrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLMiLZMcyaH1ZwSwNz9peEHv1XZ6ucat8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
