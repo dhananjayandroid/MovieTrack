@@ -7,14 +7,13 @@ MoviesApp is an Android application that leverages modern Android development to
 - **MVVM Architecture**: Utilizes the Model-View-ViewModel (MVVM) pattern to ensure a separation of concerns and improve the manageability of the code.
 - **Jetpack Compose**: Employs Jetpack Compose to build the UI, enabling a more concise and reactive approach compared to traditional XML-based layouts.
 - **LiveData**: Uses LiveData to observe data changes and handle UI updates, ensuring lifecycle safety.
+- **Hilt for Dependency Injection**: Implements Hilt for dependency injection to decouple the application components and improve scalability.
 
 ## Technologies Used
 
 - **Kotlin**: As the primary language for Android development, Kotlin offers safety features like nullability and immutability, which help to prevent common bugs.
 - **Android Studio Canary**: Developed using the latest version of Android Studio Canary to access cutting-edge tools and features.
 - **Gradle 8.4**: Uses Gradle 8.4 for efficient and reliable build management.
-- **Hilt for Dependency Injection**: Implements Hilt for dependency injection to decouple the application components and improve scalability.
-
 
 
 
@@ -27,6 +26,12 @@ MoviesApp is an Android application that leverages modern Android development to
 <img src="https://github.com/dhananjayandroid/MovieTrack/assets/12845736/0ccbc057-a3a0-4a6b-ac00-19f15ef4e719" height="512">
 
 
+
+## BitRise CI
+
+Last distributed APK from the Bitrise distribution cab be downloaded from [here](https://app.bitrise.io/app/482c85c2-44b8-451e-adfc-3f842190d60f/build/205f1f05-5155-4fd8-8c33-312a45328cea/artifact/4c5dd09d0ad44f5c/p/14a0ae71833e6062815878e39af4f197).
+
+<img src="https://github.com/dhananjayandroid/MovieTrack/assets/12845736/72272dfe-09ef-4396-b7b0-e6e979e6c976">
 
 
 ## Project Structure
