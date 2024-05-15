@@ -1,6 +1,6 @@
-# MoviesApp
+# MovieTrack
 
-MoviesApp is an Android application that leverages modern Android development tools. Designed with a clean architecture approach, the application aims to provide a robust, maintainable, and scalable framework. This project showcases the implementation of the MVVM pattern, using LiveData and Jetpack Compose for a responsive and interactive UI.
+MovieTrack is an Android application that leverages modern Android development tools. Designed with a clean architecture approach, the application aims to provide a robust, maintainable, and scalable framework. This project showcases the implementation of the MVVM pattern, using LiveData and Jetpack Compose for a responsive and interactive UI.
 
 ## Key Features
 
